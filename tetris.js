@@ -1,11 +1,11 @@
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
 
-const scale = 20; // Размер клетки 20x20 пикселей
-context.scale(scale, scale); // Масштабирование канваса
+const scale = 20;
+context.scale(scale, scale);
 
-// Создание игрового поля
-const arena = createMatrix(10, 20); // Поле 10 на 20 клеток
+
+const arena = createMatrix(10, 20);
 
 // Создание фигур
 const pieces = 'ILJOTSZ';
