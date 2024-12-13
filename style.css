@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #222;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+
+canvas {
+    border: 1px solid white;
+    margin: 10px;
+}
+
+#score {
+    font-size: 20px;
+}
